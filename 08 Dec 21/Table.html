@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Table</title>
+	<style>
+		table, th, td{
+			border: 1px solid black;
+		}
+		th, td{
+			width: 100px;
+			height: 50px;
+			text-align: center;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		thead{
+		/*	background: black;
+			color: #fff;*/
+		}
+		tbody{
+		/*	background: ;*/
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Simple Table</h1>
+	<table>
+		<tr>
+			<th>ID</th>
+			<td>Name</td>
+		</tr>
+		<tr>
+			<th>1</th>
+			<td>Rahim Uddin</td>
+		</tr>
+	</table>
+	<h1>Simple Table 2</h1>
+
+	<!-- <table>
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+			<td>D</td>
+		</tr>
+		<tr>
+			<td>E</td>
+			<td>F</td>
+			<td>G</td>
+			<td>H</td>
+		</tr>
+		<tr>
+			<td>I</td>
+			<td>J</td>
+			<td>K</td>
+			<td>L</td>
+		</tr>
+	</table> -->
+
+	<table style="background: green;">
+		<tr>
+			<td colspan="2">A</td>
+			<!-- <td>B</td> -->
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td rowspan="2">F</td>
+		</tr>
+		<tr>
+			<td>G</td>
+			<td>H</td>
+			<!-- <td>I</td> -->
+		</tr>
+	</table>
+<h1>Table Group</h1>
+
+	<table>
+		<thead>
+			<tr>
+				<td>ID</td>
+				<td>Name</td>
+				<td>Address</td>
+				<td>Phone</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td colspan="2">shanto</td>
+				<!-- <td>Mirpur</td> -->
+				<td>01799541685</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2</td>
+				<td>Rana</td>
+				<td>kuril</td>
+				<td>0179999999</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>3</td>
+				<td>Waliul</td>
+				<td>Badda</td>
+				<td>0175658758</td>
+			</tr>
+		</tfoot>
+	</table> 
+	<br>
+	<br>
+	<Table>
+	<thead>
+		<tr>
+			<td>name</td>
+			<td>id</td>
+			<td>intake</td>
+			<td>subject</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>shanto</td>
+			<td>48</td>
+			<td>37</td>
+			<td>CSE</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td>amzad</td>
+			<td>53</td>
+			<td>37</td>
+			<td>CSE</td>
+		</tr>
+		<tr>
+			<td>nabil</td>
+			<td>50</td>
+			<td>37</td>
+			<td>CSE</td>
+		</tr>
+	</tfoot>
+	</Table>
+
+
+</body>
+</html>

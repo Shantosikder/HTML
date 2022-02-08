@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+</head>
+<body>
+
+	<h1 style="color: green;">Basic Form:</h1>
+
+	<form action="" method="get">
+
+		<label for="">Fast Name:</label><br>
+		<input type="text" name="fastname" placeholder="Enter Frist name"> <br>
+		<label for="">Last Name:</label><br>
+		<input type="text" name="lastname" placeholder="Enter Last name"> <br>
+		<label for="">Address:</label><br>
+		<textarea name="address" cols="30" rows="10"></textarea><br>
+		<input type="submit" name="submit" value="SUBMIT">
+		<!-- <input type="button"> -->
+		<button type="submit">Again Button</button>
+	</form>
+
+	<br>
+	<hr>
+
+	<h1 style="color: green;">Login Form:</h1>
+
+	<form action="" method="post">
+		<label for="">Email:</label><br>
+		<input type="Email" name="Email"><br>
+		<label for="">Password:</label><br>
+		<input type="Password" name="Password"><br>
+		<input type="submit" name="submit" value="Login">
+	</form>
+
+	<br>
+	<hr>
+
+	<h1 style="color: green;">Contact Form:</h1>
+
+	<form action="" method="post">
+		<label for="">Full Name:</label>
+		<input type="text" name="full Name" placeholder="Full name"><br>
+		<label for="">Email:</label>
+		<input type="Email" name="email" placeholder="Email"><br>
+		<label for="">Phone:</label>
+		<input type="text" name="phone" placeholder="Number"><br>
+		<label for="">Subject:</label>
+		<input type="text" name="subject"><br>
+		<label for="">Message:</label><br>
+		<textarea name="address" cols="30" rows="10"></textarea><br>
+		<input type="submit" name="submit" value="SUBMIT">
+	</form>
+	<br>
+	<hr>
+
+	<h1 style="color: green;">Registation Form:</h1>
+
+	<form action="">
+
+		<label for="">Fast Name:</label>
+		<input type="text" name="fastname" placeholder="Enter Frist name"><br>
+		<label for="">Last Name:</label>
+		<input type="text" name="lastname" placeholder="Enter Last name"> <br>
+		<label for="">Gender:</label><br>
+		<label for="">Male</label><input type="radio" name="gender" value="M">
+		<label for="">Female</label><input type="radio" name="gender" value="F"><br>
+		<label for="">District:</label><br>
+
+		<select name="district" id="">
+			<option value="" disabled>Seclect one</option>
+			<option value="dhaka" selected>Dhaka</option>
+			<option value="madaripur">Madaripur</option>
+			<option value="sylhet">sylhet</option>
+			<option value="rajshahi">Rajshahi</option>
+			<option value="chottogram">Chottogram</option>
+		</select>
+		<br>
+		<label for="">Sebject:</label>
+		<input type="checkbox" name="PHP"><label for="">PHP</label>
+		<input type="checkbox" name="JS"><label for="">JS</label>
+		<input type="checkbox" name="C"><label for="">C</label>
+		<input type="checkbox" name="C++"><label for="">C++</label>
+		<input type="checkbox" name="C#"><label for="">C#</label>
+		<input type="checkbox" name="Python"><label for="">Python</label>
+		<input type="checkbox" name="Laravel"><label for="">Laravel</label><br>
+		<label for="">Address:</label><br>
+		<textarea name="address" id="" cols="30" rows="10"></textarea><br>
+		<input type="submit" name="submit" value="Registation">
+		<br>
+		<hr>
+
+	</form>
+	<br>
+	<hr>
+
+	<h1 style="color: green;">Login Form With Legend:</h1>
+
+	<form action="" method="post">
+		<fieldset>
+		<legend>Login Form</legend>
+		<label for="">Email:</label>
+		<input type="Email" name="Email"><br>
+		<label for="">Password:</label>
+		<input type="Password" name="Password"><br>
+		</fieldset>
+		<input type="submit" name="submit" value="Login">
+	</form>
+
+	<br>
+	<hr>
+	<h1>Form with form</h1>
+	<form action="">
+		<table>
+			<tr>
+				<td>Fastname:</td>
+				<td><input type="text" name="fastname" placeholder="Enter Frist name"></td>
+			</tr>
+			<tr>
+				<td>Lastname:</td>
+				<td><input type="text" name="Lastname" placeholder="Enter Last name"></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td>
+					<textarea name="address" id="" cols="30" rows="10" placeholder="Enter address"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submit" value="SUBMIT"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+			outline: 0px;
+		}
+		body{
+			width: 30%;
+			margin: 120px auto;
+			padding: 15px;
+			border: 1px solid skyblue;
+		}
+		form>div{
+			padding: 10px;
+		}
+		input[type=text] {
+		  	width: 100%;
+		  	box-sizing: border-box;
+		 	border: 2px solid #ccc;
+		  	border-radius: 4px;
+		  	font-size: 16px;
+		  	background-color: white;
+		  	background-image: url('searchicon.png');
+		  	background-position: 10px 10px; 
+		  	background-repeat: no-repeat;
+		  	padding: 8px 12px 8px 12px;
+		  	transition: width 0.4s ease-in-out;
+		}
+	</style>
+</head>
+<body style="padding: 30px">
+	<form action="" method="post">
+		<h1 style="text-align: center">Create Account</h1>
+		<div>
+			<label for="fname">First name*</label><br>
+			<input type="text" name="fname" required>
+		</div>
+		<div>
+			<label for="lname">Last name</label><br>
+			<input type="text" name="lname">
+		</div>
+		<div>
+			<label for="password">Password*</label><br>
+			<input type="password" name="password" required>
+		</div>
+		<div>
+			<label for="confirm_password">Confirm Password*</label><br>
+			<input type="password" name="confirm_password" required>
+		</div>
+		<div>
+			<label for="gender">Gender</label><br>
+			<input type="radio" name="gender"><label for="male">Male</label>
+			<input type="radio" name="gender"><label for="female">Female</label>
+		</div>
+		<div>
+			<label for="hobbies">Hobbies</label><br>
+			<input type="checkbox"><label for="music"> Music</label>
+			<input type="checkbox"><label for="music"> Sports</label>
+			<input type="checkbox"><label for="music"> Travel</label>
+			<input type="checkbox"><label for="music"> Movies</label>
+		</div>
+		<div>
+			<label for="income">Source of Income</label><br>
+			<select name="income">
+				<option value="">Employed</option>
+				<option value="">Banker</option>
+				<option value="">Business</option>
+			</select>
+		</div>
+		<div>
+			<label for="income_range">Income</label><br>
+			<input type="range" min="10" max="100" value="20"> 20k</meter>
+		</div>
+		<div>
+			<label for="age">Age</label><br>
+			<input type="number">
+		</div>
+		<div>
+			<label for="">Bio</label><br>
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+		</div>
+		<div>
+			<button type="submit">Create</button>
+		</div>
+	</form>
+</body>
+</html>
